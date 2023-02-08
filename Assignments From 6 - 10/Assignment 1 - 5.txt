@@ -1,0 +1,68 @@
+*Assignment 1:
+
+	<!-- Question 1 -->
+	"<!Doctype html>"
+
+	<!-- Question 2 -->
+	"Quirks mode"
+	
+	<!-- Question 3 -->
+	"No"	
+	
+	<!-- Question 4 -->
+	"No"
+
+	<!-- Question 5 -->
+	"Heading tags"
+-----------------------------------------
+*Assignment 2:
+
+	<p class="element">Welcome To The New World</p>
+	<p class='element'>Welcome To The New World</p>
+	<p class=element>Welcome To The New World</p>
+
+-Answer:
+	<!-- No Diiferrence between them -->
+-----------------------------------------
+*Assignment 3:
+
+	<p class=element hidden>Welcome To The New World</p>
+	<p class="element" hidden>Welcome To The New World</p>
+
+-Answer:
+	<!-- No Diiferrence between them -->
+-----------------------------------------
+*Assignment 4:
+
+	<p>Hello World</p>
+	
+	<p>
+	Hello World
+	</p>
+	
+	<p>
+	Hello
+	World
+	</p>
+
+	<p>
+	Hello
+	
+	
+	World
+	</p>
+
+-Answer:
+	<!-- Yes -->
+-----------------------------------------
+*Assignment 5:
+
+title -->  Global
+href --> Not  Global
+src --> Not  Global
+hidden --> Global
+charset -->  Not  Global
+class --> Global
+id -->  Global
+type -->  Not  Global
+-----------------------------------------
