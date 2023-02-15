@@ -1,0 +1,24 @@
+ div{
+    display: inline-block;
+    padding: 5px;
+    background-color: #eee;
+    margin: 5px;
+}
+.One{
+    border: 5px  red solid;
+    outline:5px  black solid;
+}
+.Two{
+    border-top: 5px  blue solid;
+    border-right: 5px  green solid;
+    border-bottom: 5px  blue solid;
+    border-left: 5px  green solid;
+    outline: 5px black solid;
+}
+.Three{
+    border-top: 5px  red dashed;
+    border-right: 5px  green dashed;  
+    border-bottom: 5px  yellow dashed;
+    border-left: 5px  blue dashed;
+    outline: 5px black solid;
+}
