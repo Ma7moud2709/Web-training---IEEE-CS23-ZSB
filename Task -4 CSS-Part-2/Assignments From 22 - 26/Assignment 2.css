@@ -1,0 +1,19 @@
+div{
+    color: black;
+    text-align: center;
+}
+.One{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.Two{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+.Three{
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+}
