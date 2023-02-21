@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ddd;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 1200px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+header .container{
+  padding: 30px 10px;
+}
+header img{
+  width: 200px;
+}
+header ul li{
+  float: left;
+}
+header ul li a:hover{
+  color: #FCD84D;
+}
+div .Nav{
+  position: absolute;
+  right:50px;
+  top:35px;
+}
+header ul a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+  float: left;
+  color: white;
+}
+.clear{
+  clear: both;
+}
+.land{
+  background-image: url("Back.jpg");
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.land .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0 ,0.7);
+}
+.land .container{
+  position: relative;
+}
+.land .container .text{
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 250px;
+  width: 50%;
+  padding-left: 15px;
+}
+.st{
+  text-transform: uppercase;
+  color: #eee5dd;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+h1{
+  margin-bottom: 30px;
+}
+.nd{
+  color: #eee5dd;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+h2{
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.land .container .text button{
+  text-transform: uppercase;
+  background-color: #FCD84D;
+  color: white;
+  padding: 15px 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.land form{
+  border: 2px solid lightslategray;
+  padding: 40px 20px;
+  float: left;
+  position: absolute;
+  color: white;
+  width: 40%;
+  right:40px ;
+  top: 145px;
+}
+.land form p{
+  display: block;
+  font-size: 18px;
+  margin-bottom:30px ;
+}
+.land form input{
+  outline: none;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.land form input[type=text],
+.land form input[type=email],
+.land form input[type=tel],
+.land form .model{
+  width: 100%;
+}
+.land form input::placeholder{
+  color:#9F999B;
+}
+.land form .Pick-Up,
+.land form .Drop-Off,
+.land form .DT{
+  width:215px;
+}
+.land form input[type=submit]{
+  text-transform: uppercase;
+  display: block;
+  background-color: #FCD84D;
+  width: 100%;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
