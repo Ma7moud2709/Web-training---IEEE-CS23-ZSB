@@ -1,0 +1,78 @@
+.parent {
+  width: 550px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.parent div {
+  display: inline-block;
+  position: relative;
+  background-color: #eee;
+  width: 200px;
+  height: 210px;
+  margin: 20px;
+  text-align: center;
+  margin-right: 10px auto;
+}
+
+.parent .Basic .Free,
+.parent .Pro .Paied {
+  width: 100px;
+  height: 100px;
+  background-color: #ababab;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: 50px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.Basic::before {
+  content: "Basic";
+}
+
+.Pro::after {
+  content: "Pro";
+}
+
+.Basic::before,
+.Pro::after {
+  position: absolute;
+  width: 100px;
+  color: white;
+  padding: 5px;
+  background-color: #03A9F4;
+  border-radius: 5px;
+  top: 10px;
+  left: 45px;
+}
+
+.Basic::after {
+  content: "Or";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  right: -34px;
+  bottom: 100px;
+  background-color: #03A9F4;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.Pro::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  left: -23px;
+  background-color: #03A9F4;
+  z-index: 1;
+}

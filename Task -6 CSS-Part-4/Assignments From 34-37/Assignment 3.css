@@ -1,0 +1,25 @@
+P{
+  position: relative;
+  background-color: #EEE;
+  color: black;
+  width:300px;
+  padding: 20px;
+  border-left: 5px solid #E91E63;
+  margin-left:100px;
+}
+p::before{
+  content: attr(data-person);
+  position: absolute;
+  left:-100px;
+  top:10px;
+  padding:20px;
+  background-color: #EEE;
+}
+p::after{
+  content: "";
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent #E91E63 transparent transparent;
+  left: -24px;
+  top: 30px;
+}
