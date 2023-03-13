@@ -1,0 +1,3 @@
+.parent:nth-of-type(2) .baby{
+  color: red;
+}
