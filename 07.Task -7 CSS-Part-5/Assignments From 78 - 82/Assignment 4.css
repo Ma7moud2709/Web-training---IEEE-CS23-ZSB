@@ -1,0 +1,3 @@
+p:first-child ~ div[title]:not(.no-need){
+  color: red;
+}
