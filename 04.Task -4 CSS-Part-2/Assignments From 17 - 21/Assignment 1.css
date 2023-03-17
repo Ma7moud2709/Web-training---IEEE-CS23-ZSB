@@ -1,0 +1,4 @@
+div {
+    display: block;
+    text-shadow: 1px 0px 0 brown, 2px 0px 0 rgb(24 134 202 / 63%), 3px 0px 0 blueviolet;
+}

@@ -1,0 +1,7 @@
+Header 
+Footer
+Nav
+Aside
+Main
+Footer
+Section

@@ -1,0 +1,28 @@
+table{
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+tbody{
+    padding: 10px;
+    background-color: #eee;
+    color: black;
+}
+thead{
+    padding: 10px;
+    background-color:#2c3641;
+    color: white;
+}
+
+.Avatar{
+    padding: 10px;
+    width: 100px;
+}
+.view{
+    padding: 2px;
+    background-color: aqua;
+}
+.delete{
+    padding: 2px;
+    background-color: rgb(215, 19, 84);
+}
