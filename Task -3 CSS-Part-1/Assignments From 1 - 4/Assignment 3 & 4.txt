@@ -1,9 +1,0 @@
-Assignment 3:
-.....................
-<!-- Internal File -->
-<link rel="stylesheet" href="assets/css/master.css" />
-_____________________________________________
-Assignment 4:
-.....................
-<!-- External File -->
-<link rel="stylesheet" href="../source/css/main.css" />
