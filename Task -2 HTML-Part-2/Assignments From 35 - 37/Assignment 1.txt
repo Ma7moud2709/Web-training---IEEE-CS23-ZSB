@@ -1,8 +1,0 @@
-submit
-title
-lable
-p or pre
-<html lang="en">
-10 To 20
-tabindex
-''ARIA'' Let Accessible Rich Internet Applications 
